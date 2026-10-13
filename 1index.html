@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MiniSteam - Elige tu juego</title>
+<link rel="stylesheet" href="css/1styles.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">Mini<span>Steam</span></div>
+  <div class="nav-links">
+    <a href="1index.html">TIENDA</a>
+    <a href="#juegos">BIBLIOTECA</a>
+  </div>
+  <input id="search" class="search" placeholder="Buscar juego...">
+</nav>
+
+<header class="hero">
+  <div id="heroArt" class="hero-art">🧱</div>
+  <div>
+    <h1 id="heroTitle">Tetris</h1>
+    <p id="heroDesc">Apila bloques y limpia líneas.</p>
+    <a id="heroLink" href="1tetris.html" class="btn">Jugar ahora</a>
+  </div>
+</header>
+
+<main class="container" id="juegos">
+  <h2 class="section-title">Todos los juegos</h2>
+  <div class="grid" id="grid">
+    <div class="card" data-name="tetris bloques puzzle">
+      <div class="card-art">🧱</div>
+      <div class="card-body">
+        <span class="tag">Puzzle</span>
+        <h3>Tetris</h3>
+        <p>Clásico de bloques. Gira y acomoda piezas.</p>
+        <a href="1tetris.html" class="btn small">JUGAR</a>
+      </div>
+    </div>
+    <div class="card" data-name="gato tic tac toe tres en raya">
+      <div class="card-art">⭕</div>
+      <div class="card-body">
+        <span class="tag">Mesa · 2 jugadores</span>
+        <h3>Gato</h3>
+        <p>Tres en raya. PvP local o contra CPU.</p>
+        <a href="1gato.html" class="btn small">JUGAR</a>
+      </div>
+    </div>
+    <div class="card" data-name="snake serpiente arcade">
+      <div class="card-art">🐍</div>
+      <div class="card-body">
+        <span class="tag">Arcade</span>
+        <h3>Snake</h3>
+        <p>Come, crece y no choques.</p>
+        <a href="1snake.html" class="btn small">JUGAR</a>
+      </div>
+    </div>
+    <div class="card" data-name="pong tenis arcade 2 jugadores">
+      <div class="card-art">🏓</div>
+      <div class="card-body">
+        <span class="tag">Arcade · 2 jugadores</span>
+        <h3>Pong</h3>
+        <p>Tenis clásico. Vs CPU o 2P local.</p>
+        <a href="1pong.html" class="btn small">JUGAR</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">MiniSteam local · HTML / CSS / JS vanilla</footer>
+
+<script src="js/1main.js"></script>
+</body>
+</html>
